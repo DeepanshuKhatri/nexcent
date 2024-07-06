@@ -10,7 +10,7 @@ import client5 from '@/assets/client5.svg'
 import client6 from '@/assets/client6.svg'
 const Customers = () => {
   return (
-    <div className=" flex bg-[#F5F7FA] py-[32px] gap-10 px-[10%] ">
+    <div className=" flex bg-[#F5F7FA] py-[32px] pb-[48px] gap-10 px-[10%] ">
       <Image src={customer_image} alt="mobile_login" height={310} width={410} />
       <div className=" flex flex-col mt-2  gap-3">
         {/* <div className="w-[600px] "> */}
@@ -32,6 +32,16 @@ const Customers = () => {
 
           <h4 className=" text-green-500 font-semibold text-[20px]">Tim Smith</h4>
           <p>British Dragon Boat Racing Association</p>
+
+          <div className="flex gap-5">
+            <Image src={client1} alt="client" height={48} width={48}/>
+            <Image src={client2} alt="client" height={48} width={48}/>
+            <Image src={client3} alt="client" height={48} width={48}/>
+            <Image src={client4} alt="client" height={48} width={48}/>
+            <Image src={client5} alt="client" height={48} width={48}/>
+            <Image src={client6} alt="client" height={48} width={48}/>
+            <Button variant="ghost" className="text-green-500">Meet all customers </Button>
+          </div>
         {/* </div> */}
         {/* <div>
           {" "}
