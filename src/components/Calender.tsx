@@ -4,14 +4,14 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 const Calender = () => {
   return (
-    <div className=" flex px-[10%] pb-[40px]">
+    <div className="bg-primary flex px-[10%] pb-[40px]">
       <Image src={calender_image} alt="mobile_login" height={310} width={410} />
       <div className="w-[660px] flex flex-col justify-around">
         <div className="w-[600px] ">
-          <h2 className="font-semibold text-[38px] leading-[44px]  mb-2">
+          <h2 className="font-semibold text-[38px] text-primary leading-[44px]  mb-2">
           How to design your site footer like we did
           </h2>
-          <p className="text-[14px]">
+          <p className="text-[14px] text-secondary">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
             Pellentesque placerat vestibulum lorem sed porta. Nullam mattis

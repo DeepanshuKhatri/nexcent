@@ -32,7 +32,7 @@ const Navbar = () => {
         },
     ]
   return (
-    <div className='flex h-[70px] w-full justify-between px-[10%] items-center '>
+    <div className='flex h-[70px] w-full justify-between bg-secondary px-[10%] items-center '>
         <div className='flex gap-1 '>
             <Image alt='logo' src={logo} width={20} height={20}/>
             <div className="text-xl">Nexcent</div>

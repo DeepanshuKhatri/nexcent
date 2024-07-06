@@ -34,29 +34,29 @@ const Community = () => {
     },
   ];
   return (
-    <div className="flex flex-col w-full py-[40px] px-[10%] items-center">
-      <h1 className="font-semibold text-[36px] leading-9">
-        Manage your entire community
+    <div className="flex flex-col w-full py-[40px] text-center px-[10%] items-center bg-primary">
+      <h1 className="font-semibold text-primary w-[540px] text-[36px] leading-9 mb-3">
+        Manage your entire community in a single system
       </h1>
-      <h1 className="font-semibold text-[36px] ">in a single system</h1>
-      <p>Who is Nextcent suitable for?</p>
+      {/* <h1 className="font-semibold text-primary text-[36px] "></h1> */}
+      <p className="text-secondary-gray">Who is Nextcent suitable for?</p>
 
       <div className="flex w-full justify-between">
         {data.map((card_data) => {
           return (
             <Card className="w-[300px] h-[280px] border-0">
               <CardContent>
-                <div className="flex flex-col items-center gap-5 py-5 h-full w-full text-center">
+                <div className="flex  flex-col items-center gap-5 py-5 h-full w-full text-center">
                   <Image
                     height={56}
                     width={65}
                     src={card_data.image}
                     alt="card_image"
                   />
-                  <CardTitle className="text-[36px] leading-9">
+                  <CardTitle className="text-[36px] text-primary font-bold leading-9">
                     {card_data.heading}
                   </CardTitle>
-                  <CardDescription>{card_data.description}</CardDescription>
+                  <CardDescription className="text-secondary">{card_data.description}</CardDescription>
                 </div>
               </CardContent>
             </Card>

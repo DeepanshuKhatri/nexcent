@@ -11,9 +11,9 @@ import Image from 'next/image'
 const Clients = () => {
 
   return (
-    <div className='flex flex-col justify-center pt-[40px] text-center  px-[10%]'>
-        <h1 className='text-[36px] font-semibold leading-[44px]'>Our Clients</h1>
-        <p className='leading-10'>We have been working with some Fortune 500+ clients</p>
+    <div className='flex flex-col justify-center pt-[40px] text-center bg-primary px-[10%]'>
+        <h1 className='text-[36px] font-semibold text-primary leading-[44px]'>Our Clients</h1>
+        <p className='text-secondary-gray'>We have been working with some Fortune 500+ clients</p>
         <div className="flex justify-between  py-7">
             <Image src={client1} height={48} width={48} alt='clients' />
             <Image src={client2} height={48} width={48} alt='clients' />

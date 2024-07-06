@@ -10,7 +10,7 @@ import { Input } from "./ui/input";
 
 const Footer = () => {
   return (
-    <div className="bg-[#263238] flex justify-between py-5 px-[10%]">
+    <div className="bg-[#263238] text-white flex justify-between py-5 px-[10%]">
       <div className="w-[300px]">
         <div className="flex flex-col gap-4">
           <div className="flex gap-2">
