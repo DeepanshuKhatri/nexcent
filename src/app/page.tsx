@@ -6,27 +6,25 @@ import Customers from '@/components/Customers'
 import Footer from '@/components/Footer'
 import GetDemo from '@/components/GetDemo'
 import Hero from '@/components/Hero'
-import Navbar from '@/components/Navbar'
 import Unlock from '@/components/Unlock'
 import Updates from '@/components/Updates'
 import React from 'react'
 
-const page = () => {
+const HomePage = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <Clients/>
-      <Community/>
-      <Unlock/>
-      <Achievements/>
-      <Calender/>
-      <Customers/>
+      <Hero />
+      <Clients />
+      <Community />
+      <Unlock />
+      <Achievements />
+      <Calender />
+      <Customers />
       <Updates/>
       <GetDemo/>
-      <Footer/>
+      <Footer/>   
     </div>
   )
 }
 
-export default page
+export default HomePage
